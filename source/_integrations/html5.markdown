@@ -97,7 +97,7 @@ The `html5` platform can only function if all of the following requirements are 
 4. With the domain verified, go to [https://console.firebase.google.com](https://console.firebase.google.com), select import Google project and select the project you created.
 5. Then, click the cogwheel on top left and select "Project settings".
 6. Select the ['Cloud Messaging' tab](https://console.firebase.google.com/project/_/settings/cloudmessaging).
-7. Generate a new key pair under the Web configuration listing at the bottom of the page. To view the private key click the three dots to the right and 'Show private key'.
+7. Generate a new key pair under the Web configuration listing at the bottom of the page (the key that appears is the public key `vapid_pub_key`). To view the private key click the three dots to the right and 'Show private key' (this key is `vapid_prv_key`).
 8. Select the ['Service Accounts' tab](https://console.firebase.google.com/project/_/settings/serviceaccounts/adminsdk).
 9. Get the email address for the project under the text that says "Firebase service account" for reference. This is not what you have to insert in `vapid_email`! You'll have to insert your Google account e-mail there.
 
